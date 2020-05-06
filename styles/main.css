@@ -1,0 +1,75 @@
+h1{
+position: absolute;
+width: 211px;
+height: 75px;
+left: 374px;
+top: 36px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 75px;
+color: #FFFFFF;
+}
+
+h2{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+color: #FFFFFF;
+}
+
+.intro-seb{
+position: absolute;
+width: 361px;
+height: 97px;
+left: 68px;
+top: 286px;
+}
+
+#my-skills{
+background-color:#7299FE;
+width: 960px;
+}
+
+#servicios{
+    background-color:#FB7171;
+    width: 960px;
+    }
+
+#portfolio{
+        background-color:#FFD233;
+        width: 960px;
+        }
+
+#clientes{
+    background-color:#3F4E62;
+    width: 960px;
+        }
+
+#contacto{
+    background-color:#16A085;
+    width: 960px;
+            }
+
+.skills-box,
+.skills-box-uno,
+.box-portfolio
+{
+    display: inline-flex;
+}
+
+.skills-box-uno{
+    flex-flow: column wrap;
+}
+
+.servicios-box,
+.box-portfolio-1{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+
+
