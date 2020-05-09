@@ -1,3 +1,15 @@
+/* Globales
+ */
+*{
+padding: 0px;
+margin: 0px;
+}
+
+main{
+    width: 100%;
+    max-width: 960px;
+}
+
 h1{
 position: absolute;
 width: 211px;
@@ -21,6 +33,8 @@ line-height: 42px;
 color: #FFFFFF;
 }
 
+/* Intro
+ */
 .intro-seb{
 position: absolute;
 width: 361px;
@@ -29,41 +43,108 @@ left: 68px;
 top: 286px;
 }
 
-#my-skills{
+/* My skills
+ */
+.my-skills{
 background-color:#7299FE;
-width: 960px;
+max-width: 960px;
+width: 100%;
 }
 
-#servicios{
+.box-skills{
+    display: flex;
+    width: 80%;
+    padding: 3%;
+}
+
+.skills-box-uno{
+    padding-right: 20px;
+    float: left;
+}
+
+.skills-box-dos{
+    padding-left: 20px;
+    float: right;
+}
+.skills-barra{
+    display: inline-flex;
+    margin-bottom: 20px;
+}
+.abajo1{
+    width: 96px;
+    height: 17px;
+}
+
+.abajo2{
+    width: 154px;
+    height: 17px;
+}
+
+.abajo3{
+    width: 227px;
+    height: 17px;
+}
+
+.abajo4{
+    width: 182px;
+    height: 17px;
+}
+
+.arriba1{
+    width:268px;
+    height: 17px;
+}
+
+.arriba2{
+    width:210px;
+    height: 17px;
+}
+
+.arriba3{
+    width:137px;
+    height: 17px;
+}
+
+.arriba4{
+    width:182px;
+    height: 17px;
+}
+
+skills-box-uno{
+    display: inline-flex;
+}
+
+
+/* Servicios */
+.servicios{
     background-color:#FB7171;
     width: 960px;
     }
 
-#portfolio{
+
+/* Portfolio */
+.portfolio{
         background-color:#FFD233;
         width: 960px;
         }
 
+/* clientes */
 #clientes{
     background-color:#3F4E62;
     width: 960px;
         }
 
+
+/* Contacto */
 #contacto{
     background-color:#16A085;
     width: 960px;
             }
 
-.skills-box,
-.skills-box-uno,
-.box-portfolio
-{
-    display: inline-flex;
-}
 
-.skills-box-uno{
-    flex-flow: column wrap;
-}
+
+
+
 
 .servicios-box,
 .box-portfolio-1{
