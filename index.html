@@ -2,15 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./styles/reset.css">
     <link rel="stylesheet" type="text/css" href="./styles/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Portfolio</title>
 </head>
 <body>
-    <section id="codigo-intro">
-        <h1>codiGO</h1>
-        <img src="./images/image.png" alt="foto-de-sebastian">
-        <h2 class="intro-seb">
+    <main class="main">
+    <section class="intro">
+        <h1 class="banner">codiGO</h1>
+        <img class="imagen-intro" src="./images/image.png" alt="foto-de-sebastian">
+        <h2 class="intro-text">
             Hola, mi nombre <br>
             es Sebastian Yabiku
         </h2>
@@ -58,31 +61,39 @@
             </div>
             <div class="skills-box-dos">
                 <h3>Javascript</h3>
-                <div>
+                <div class="skills-barra">
                     <div>
-                        <img src="./images/Rectangle 2.png" alt="blanco">
-                        <img src="./images/Rectangle 3.png" alt="negro">
+                    <img class="arriba5" src="./images/Rectangle 3.png" alt="negro">
+                    </div>
+                    <div>
+                    <img class="abajo5" src="./images/Rectangle 2.png" alt="abajo">
                     </div>
                 </div>
                 <h3>React</h3>
-                <div>
+                <div class="skills-barra">
                     <div>
-                        <img src="./images/Rectangle 2.png" alt="blanco">
-                        <img src="./images/Rectangle 3.png" alt="negro">
+                    <img class="arriba6" src="./images/Rectangle 3.png" alt="negro">
+                    </div>
+                    <div>
+                    <img class="abajo6" src="./images/Rectangle 2.png" alt="abajo">
                     </div>
                 </div>
                 <h3>Python</h3>
-                <div>
+                <div class="skills-barra">
                     <div>
-                        <img src="./images/Rectangle 2.png" alt="blanco">
-                        <img src="./images/Rectangle 3.png" alt="negro">
+                    <img class="arriba7" src="./images/Rectangle 3.png" alt="negro">
+                    </div>
+                    <div>
+                    <img class="abajo7" src="./images/Rectangle 2.png" alt="abajo">
                     </div>
                 </div>
                 <h3>Node.js</h3>
-                <div>
+                <div class="skills-barra">
                     <div>
-                        <img src="./images/Rectangle 2.png" alt="blanco">
-                        <img src="./images/Rectangle 3.png" alt="negro">
+                    <img class="arriba8" src="./images/Rectangle 3.png" alt="negro">
+                    </div>
+                    <div>
+                    <img class="abajo8" src="./images/Rectangle 2.png" alt="abajo">
                     </div>
                 </div>
             </div>
@@ -91,30 +102,33 @@
     <section class="servicios">
         <H2>Servicios</H2>
         <div class="servicios-box">
-            <div>
-            <img src="./images/Vector.png" alt="blanco">
-            <h3>Diseno Web</h3>
-            </div>
-            <div>
-            <img src="./images/Vector.png" alt="blanco">
-            <h3>Desarrollo Web</h3>
-            </div>
-            <div>
-            <img src="./images/Vector.png" alt="blanco">
-            <h3>Desarrollo Mobile</h3>
-            </div>
-        
-            <div>
-            <img src="./images/Vector.png" alt="blanco">
-            <h3>Diseno UI</h3>
-            </div>
-            <div>
-            <img src="./images/Vector.png" alt="blanco">
-            <h3>Diseno UX</h3>
-            </div>
-            <div>
-            <img src="./images/Vector.png" alt="blanco">
-            <h3>Metodologias Agiles</h3>
+           <div class="servicios-inner-box">
+                <div>
+                <img src="./images/Vector.png" alt="blanco">
+                <h3>Diseno Web</h3>
+                </div>
+                <div>
+                <img src="./images/Vector.png" alt="blanco">
+                <h3>Desarrollo Web</h3>
+                </div>
+                <div>
+                <img src="./images/Vector.png" alt="blanco">
+                <h3>Desarrollo Mobile</h3>
+                </div>
+            </div>  
+            <div class="servicios-inner-box"> 
+                <div>
+                <img src="./images/Vector.png" alt="blanco">
+                <h3>Diseno UI</h3>
+                </div>
+                <div >
+                <img src="./images/Vector.png" alt="blanco">
+                <h3>Diseno UX</h3>
+                </div>
+                <div>
+                <img src="./images/Vector.png" alt="blanco">
+                <h3>Metodologias Agiles</h3>
+                </div>
             </div>
     </section>
 
@@ -127,7 +141,7 @@
             <img src="./images/port3.png" alt="portafolio3">
             <img src="./images/port4.png" alt="portafolio4">
             </div>
-            <div>
+            <div class="box-portfolio-1">
             <img src="./images/port5.png" alt="portafolio5">
             <img src="./images/port6.png" alt="portafolio6">
             <img src="./images/port7.png" alt="portafolio7">
@@ -136,8 +150,8 @@
         </div>
     </section>
     <section class="clientes">
-        <h2>Clients</h2>
-        <div>
+        <h2>Clientes</h2>
+        <div class="box-clientes">
         <img src="./images/cliente1.png" alt="cliente1">
         <img src="./images/cliente2.png" alt="cliente2">
         <img src="./images/cliente3.png" alt="cliente3">
@@ -147,6 +161,18 @@
        
     <section class="contacto">
         <h2>Contacto</h2>
+        <form action="post">
+            <input type="text" placeholder="Nombre">
+            <input type="text" placeholder="Apellido"><br>
+            <input type="email" placeholder="Email">
+            <input type="tel" placeholder="Telefono"><br>
+            <textarea name="description" id="description" cols="30" rows="10" placeholder="Description"></textarea>
+        </form>
+        <div class="button">
+        <button>Enviar</button>
+         </div>
+
     </section>
+</main>
 </body>
 </html>

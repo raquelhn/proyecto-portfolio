@@ -5,23 +5,14 @@ padding: 0px;
 margin: 0px;
 }
 
+/* main
+ */
 main{
-    width: 100%;
-    max-width: 960px;
-}
-
-h1{
-position: absolute;
-width: 211px;
-height: 75px;
-left: 374px;
-top: 36px;
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 64px;
-line-height: 75px;
-color: #FFFFFF;
+    width: 960px;
+    box-sizing: border-box;
+    margin: auto;
+    color: white;
+    font-family: 'Roboto';
 }
 
 h2{
@@ -31,45 +22,73 @@ font-weight: bold;
 font-size: 36px;
 line-height: 42px;
 color: #FFFFFF;
+text-align: center;
 }
 
 /* Intro
  */
-.intro-seb{
-position: absolute;
-width: 361px;
-height: 97px;
-left: 68px;
-top: 286px;
+ .intro{
+    position:relative;
+    margin: 0px;
+    padding:0px;
+    }
+
+.imagen-intro{
+    width: 100%;
+    max-width: 960px;
+    height: 525px;
 }
+
+.banner{ 
+position: absolute;
+top:36px;
+right: 375px;
+left: 374px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 75px;
+}
+
+.intro-text{ 
+position: absolute;
+top:286px;
+right: 531px;
+left: 68px;
+}
+
 
 /* My skills
  */
 .my-skills{
 background-color:#7299FE;
-max-width: 960px;
-width: 100%;
+width: 960px;
+padding-top: 35px;
+padding-bottom:86px;
+}
+
+.my-skills h3{
+    font-size: 18px;
+    margin-bottom: 7px;
 }
 
 .box-skills{
     display: flex;
-    width: 80%;
-    padding: 3%;
+    margin-top: 28px;
+    margin-right: 104px;
+    margin-left: 104px;
 }
-
 .skills-box-uno{
-    padding-right: 20px;
-    float: left;
+    margin-right: 24px;
 }
 
-.skills-box-dos{
-    padding-left: 20px;
-    float: right;
-}
 .skills-barra{
     display: inline-flex;
     margin-bottom: 20px;
 }
+
+
 .abajo1{
     width: 96px;
     height: 17px;
@@ -87,6 +106,26 @@ width: 100%;
 
 .abajo4{
     width: 182px;
+    height: 17px;
+}
+
+.abajo5{
+    width: 127px;
+    height: 17px;
+}
+
+.abajo6{
+    width: 242px;
+    height: 17px;
+}
+
+.abajo7{
+    width: 182px;
+    height: 17px;
+}
+
+.abajo8{
+    width: 213px;
     height: 17px;
 }
 
@@ -110,8 +149,23 @@ width: 100%;
     height: 17px;
 }
 
-skills-box-uno{
-    display: inline-flex;
+.arriba5{
+    width:237px;
+    height: 17px;
+}
+
+.arriba6{
+    width:122px;
+    height: 17px;
+}
+
+.arriba7{
+    width:182px;
+    height: 17px;
+}
+.arriba8{
+    width:151px;
+    height: 17px;
 }
 
 
@@ -119,38 +173,117 @@ skills-box-uno{
 .servicios{
     background-color:#FB7171;
     width: 960px;
+    padding-top: 31px;
     }
+
+.servicios-box{
+    padding: 31px 50px;
+    text-align: center;
+}
+
+.servicios-box img{
+    width: 42.62px;
+    height: 42.62px;
+    margin-bottom: 15.69px;
+}
+
+.servicios-box h3{
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.servicios-inner-box{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+    display: inline-flex;
+}
+.servicios-inner-box div{
+    width: 30%;
+}
 
 
 /* Portfolio */
 .portfolio{
         background-color:#FFD233;
         width: 960px;
+        padding-top: 42px;
+        padding-bottom: 97px;
         }
 
+.box-portfolio{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 13px;
+    margin-top: 46px;
+}
+
+.box-portfolio img{
+    width: 20%;
+}
+
+
+
 /* clientes */
-#clientes{
+.clientes{
+    padding-bottom:104px;
+    padding-top:36px;
     background-color:#3F4E62;
     width: 960px;
         }
 
+.box-clientes{
+    margin-top:21px;
+    text-align: center;
+}
+
 
 /* Contacto */
-#contacto{
+.contacto{
     background-color:#16A085;
     width: 960px;
+    padding-top:34px;
+    padding-bottom: 76px;
             }
 
-
-
-
-
-
-.servicios-box,
-.box-portfolio-1{
-    display: inline-flex;
-    flex-direction: row;
+form{
+    text-align: center;
+    margin-right: 101px;
+    margin-left: 101px;
+    margin-top: 26px;
 }
+    
+input{
+    display: inline-flex;
+    width:40%;
+    height:59px ;
+    margin-bottom: 33px;
+}
+
+textarea{
+    width: 80%;
+    height: 112px;
+    margin-bottom: 45px;
+}
+
+.button{
+    text-align: center;
+}
+button{
+    background-color:#233451;
+    margin: auto;
+    padding: 18px 52px;
+    color: white;
+    border:none;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+
+
+
+
 
 
 
