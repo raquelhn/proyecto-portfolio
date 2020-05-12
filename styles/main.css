@@ -177,8 +177,9 @@ padding-bottom:86px;
     }
 
 .servicios-box{
-    padding: 31px 50px;
-    text-align: center;
+    padding: 31px 0px 50px 0px;
+    width: 70%;
+    margin: auto;
 }
 
 .servicios-box img{
@@ -197,9 +198,11 @@ padding-bottom:86px;
     margin-bottom: 25px;
     width: 100%;
     display: inline-flex;
+    text-align: center;
 }
 .servicios-inner-box div{
     width: 30%;
+
 }
 
 
