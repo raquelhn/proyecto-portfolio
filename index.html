@@ -103,7 +103,6 @@
     <section class="servicios">
         <H2>Servicios</H2>
         <div class="servicios-box">
-           <div class="servicios-inner-box">
                 <div>
                 <img src="./images/Vector.png" alt="blanco">
                 <h3>Diseno Web</h3>
@@ -116,8 +115,6 @@
                 <img src="./images/Vector.png" alt="blanco">
                 <h3>Desarrollo Mobile</h3>
                 </div>
-            </div>  
-            <div class="servicios-inner-box"> 
                 <div>
                 <img src="./images/Vector.png" alt="blanco">
                 <h3>Diseno UI</h3>
@@ -130,24 +127,21 @@
                 <img src="./images/Vector.png" alt="blanco">
                 <h3>Metodologias Agiles</h3>
                 </div>
-            </div>
+        </div>
     </section>
-
     <section class="portfolio">
         <h2>Portfolio</h2>
+        <div class=wrapper-box>
         <div class="box-portfolio">
-            <div class="box-portfolio-1">
             <img src="./images/port1.png" alt="portafolio1">
             <img src="./images/port2.png" alt="portafolio2">
             <img src="./images/port3.png" alt="portafolio3">
             <img src="./images/port4.png" alt="portafolio4">
-            </div>
-            <div class="box-portfolio-1">
             <img src="./images/port5.png" alt="portafolio5">
             <img src="./images/port6.png" alt="portafolio6">
             <img src="./images/port7.png" alt="portafolio7">
             <img src="./images/port8.png" alt="portafolio8">
-            </div>
+        </div>
         </div>
     </section>
     <section class="clientes">
@@ -162,13 +156,28 @@
        
     <section class="contacto">
         <h2>Contacto</h2>
-        <form action="post">
-            <input type="text" placeholder="Nombre">
-            <input type="text" placeholder="Apellido"><br>
-            <input type="email" placeholder="Email">
-            <input type="tel" placeholder="Telefono"><br>
-            <textarea name="description" id="description" cols="30" rows="10" placeholder="Description"></textarea>
+        <form action="post" >
+        <div class="form-box">
+            <div>
+                <input type="text" placeholder="Nombre">
+            </div>
+            <div>
+                <input type="text" placeholder="Apellido">
+            </div>
+            <br>
+            <div>
+                <input type="email" placeholder="Email">
+            </div>
+            <div>
+                <input type="tel" placeholder="Telefono">
+            </div>
+            <br>
+            
+        </div>
         </form>
+        <div class="description-box">
+            <textarea name="description" id="description" cols="30" rows="10" placeholder="Description"></textarea>
+        </div>
         <div class="button">
         <button>Enviar</button>
          </div>
